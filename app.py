@@ -34,7 +34,7 @@ layer = pdk.Layer(
     "ScatterplotLayer",
     df,
     get_position=["longitude", "latitude"],
-    get_fill_color=["255-shared", "255-shared", "255"],
+    get_fill_color=["255-shared", "255", "255-shared"],
     get_radius="60*shared/100",
     pickable=True
 )
